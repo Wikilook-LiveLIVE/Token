@@ -1,0 +1,35 @@
+Token name: Credo Verification Token
+
+Token ticker: CVT
+
+Token decimals: 18
+
+Multisig wallet address: 0xDb5E2F262424224ffE57939a297D1b217518DACC
+
+*****************************
+
+Crowdsale rate: 1000
+
+Crowdsale start time: 2018-02-20T03:23 (GMT + 0)
+
+Crowdsale end time: 2018-02-20T07:00 (GMT + 0)
+
+Compiler Version: 0.4.11
+
+Is optimization enabled?: true
+
+*****************************
+
+Finalize agent contract name: ReservedTokensFinalizeAgent
+
+Finalize agent contract address for Tier 1: 0x222F7F064aaFf9e3985208cf0E69d334C05533B3
+
+*****************************
+
+****Finalize agent contract ABI:**** 
+
+[{"constant":false,"inputs":[],"name":"finalizeCrowdsale","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"isFinalizeAgent","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"isSane","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"crowdsale","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"distributedReservedTokensDestinationsLen","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"reservedTokensDistributionBatch","type":"uint256"}],"name":"distributeReservedTokens","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"reservedTokensAreDistributed","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"token","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"inputs":[{"name":"_token","type":"address"},{"name":"_crowdsale","type":"address"}],"payable":false,"type":"constructor"}]
+
+****Finalize agent contract ABI encoded constructor arguments for Tier 1:**** 
+
+0000000000000000000000004aac461c86abfa71e9d00d9a2cde8d74e4e1aeea000000000000000000000000552dff071cc1190cef922265ca75082a4714c53a
